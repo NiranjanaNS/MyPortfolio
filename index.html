@@ -3,10 +3,12 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Niranjana N Sajeev, a MERN stack aspirant with interests in AI, robotics, and web development.">
+  <meta name="keywords" content="Niranjana N Sajeev, MERN stack, portfolio, AI, robotics, web development, Python, soft skills">
   <title>Niranjana N Sajeev</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
@@ -18,20 +20,22 @@
       <p>Niranjana N Sajeev</p>
     </div>
 
-      <input type="checkbox" id="menu-toggle" />
+    <div class="menubar">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
       <label for="menu-toggle" class="menu-icon">&#9776;</label>
 
       <div class="nav-links">
-        <label for="menu-toggle"><a href="#navbar">Home</a></label>
-        <label for="menu-toggle"><a href="#about">About</a></label>
-        <label for="menu-toggle"><a href="#">Projects</a></label>
-        <label for="menu-toggle"><a href="#contact">Contact</a></label>
-        <label for="menu-toggle"><a href="https://niranjanans.github.io/MyPortfolio/">Github</a></label>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/NiranjanaNS" target="_blank">Github</a>
       </div>
+    </div>
 
   </div>
 
-  <section id="main">
+  <section id="main" class="main">
     <div class="overlay"></div>
 
     <div class="container">
@@ -49,26 +53,26 @@
 
   <section id="arrow" class="about-section">
     <div class="img-about">
-    <div class="img">
-      <img src="./assets/logo.png" alt="">
-    </div>
+      <div class="img">
+        <img src="./assets/logo.png" alt="">
+      </div>
     <div class="about" id="about">
-    <div class="about-me">
-      <h1>About me</h1>
-      <p>I'm Niranjana, a passionate tech enthusiast and a Computer Science graduate, always curious to explore everything from AI and robotics to web development. I'm a MERN stack aspirant with a love for creative tech projects and innovation. I’ve worked as a soft skills trainer, which helps me connect, guide, and motivate people—something I truly enjoy. With hands-on experience in coding and storytelling, I’m on a mission to master both tech and life, one project at a time.</p>
-      <p>I’m someone who loves figuring things out. Problem-solving and adapting to new stuff come naturally to me, and I’m always curious to learn more. I really enjoy understanding how systems work deep down, and I’m always looking for ways to sharpen my technical and thinking skills.</p>
-      <div class="info-section">
-        <ul class="info-list">
-          <li><span class="label">Name  :</span> <span class="label">Niranjana N Sajeev</span></li><br>
-          <li><span class="label">Date of birth  :</span> <span class="label">May 2 2001</span></li><br>
-          <li><span class="label">Email  :</span> <span class="label">niranjanansajeev6952@gmail.com</span></li><br>
-          <li><span class="label">Phone  :</span> <span class="label">+91 8848043584</span></li><br>
-        </ul>
-      </div>
-      <div class="cv-section">
-      <div class="cv">
-        <a href="./assets/NiranjanaNSajeevResume_Final.pdf" download="NiranjanaNSajeevResume">DOWNLOAD CV</a>
-      </div>
+      <div class="about-me">
+        <h1>About me</h1>
+        <p>I'm Niranjana, a passionate tech enthusiast and a Computer Science graduate, always curious to explore everything from AI and robotics to web development. I'm a MERN stack aspirant with a love for creative tech projects and innovation. I’ve worked as a soft skills trainer, which helps me connect, guide, and motivate people—something I truly enjoy. With hands-on experience in coding and storytelling, I’m on a mission to master both tech and life, one project at a time.</p>
+        <p>I’m someone who loves figuring things out. Problem-solving and adapting to new stuff come naturally to me, and I’m always curious to learn more. I really enjoy understanding how systems work deep down, and I’m always looking for ways to sharpen my technical and thinking skills.</p>
+        <div class="info-section">
+          <ul class="info-list">
+            <li><span class="label">Name  :</span> <span class="label">Niranjana N Sajeev</span></li><br>
+            <li><span class="label">Date of birth  :</span> <span class="label">May 2 2001</span></li><br>
+            <li><span class="label">Email  :</span> <span class="label">niranjanansajeev6952@gmail.com</span></li><br>
+            <li><span class="label">Phone  :</span> <span class="label">+91 8848043584</span></li><br>
+          </ul>
+        </div>
+        <div class="cv-section">
+        <div class="cv">
+          <a href="./assets/NiranjanaNSajeevResume_Final.pdf" target="_blank"> Resume</a>
+        </div>
       </div>
     </div>
     </div>
@@ -109,6 +113,7 @@
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
       </aside>
 
@@ -164,20 +169,22 @@
 
           <h2>Experience</h2>
 
-        <div class="exp-info-section">
-          <div class="exp-info">
-            <div class="exp-img">
-              <img src="./assets/suitcase.png" alt="">
+          <div class="exp-info-section">
+            <div class="exp-info">
+              <div class="exp-img">
+                <img src="./assets/suitcase.png" alt="">
+              </div>
+              <div class="exp-para">
+                <span>June 2024 - Dec 2024</span>
+                <h3>Soft Skills Trainer (Freelance)</h3>
+                <p>HR Khan's training academy</p>
+                <p>As a freelance soft skills trainer, I conducted engaging sessions focused on enhancing communication, teamwork, leadership, and public speaking skills. My role involved designing interactive activities, mentoring students and professionals, and helping them build confidence for interviews and group discussions. These sessions were aimed at improving personal and professional development, and I received positive feedback for my empathetic approach and energetic presentation style.</p>
+              </div>
             </div>
-            <div class="exp-para">
-              <span>June 2024 - Dec 2024</span>
-              <h3>Soft Skills Trainer (Freelance)</h3>
-              <p>Mangalam College of Engineering, Kottayam — Coursework Completed</p>
-              <p>Completed all core academic requirements with a strong focus on structured programming, AI, robotics, and system-level development. Currently in the process of clearing a few pending subjects. Demonstrated leadership and initiative through hands-on projects and active roles in IEEE and NSS chapters.</p>
-            </div>
+
+            <hr class="hrtag">
+          
           </div>
-          <hr class="hrtag">
-        </div>
         </div>
 
         <div id="skills" class="skills">
@@ -243,7 +250,36 @@
             </div>
 
           </div>
+        
+        </div>
 
+        <hr class="hrtag">
+
+        <div id="projects" class="projects">
+
+          <h2>Projects</h2>
+
+          <div class="pro-info-section">
+
+            <div class="pro-group">
+              <img src="./assets/pro1.png" alt="">
+                <div class="pro-des">
+                  <h3>Vehicle Accident Detection and Alert System
+                  </h3>
+                  <p>An IoT-based prototype using Arduino, sensors, and GSM to simulate real-time accident detection and emergency alerts.</p>
+                </div>
+            </div>
+
+            <div class="pro-group">
+              <img src="./assets/pro2.png" alt="">
+                <div class="pro-des">
+                  <h3>Disease Prediction Using Multi-Model Integration
+                  </h3>
+                  <p>A Python-based system that predicts diabetes and heart disease using integrated machine learning models with accuracy evaluation.</p>
+                </div>
+            </div>
+
+          </div>
         </div>
 
       </div>
@@ -305,7 +341,7 @@
       </div>
     </section>
 
-    <section id="contact-section">
+    <section id="contact">
   <div class="contact-container">
     <div class="contact-image">
       <img src="assets/logo.png" alt="Niranjana N Sajeev">
@@ -328,43 +364,10 @@
 
 <footer class="footer">
   <div class="footer-container">
-    <div class="footer-column">
-      <h3>About Me</h3>
-      <p>I'm Niranjana N Sajeev, a Computer Science graduate with a strong curiosity for emerging technologies.<br> I'm passionate about creative tech projects, AI, robotics, and full-stack development.<br> I enjoy blending logic with imagination to build solutions that are both functional and meaningful.
-      </p>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-
-    <div class="footer-column">
-      <h3>Links</h3>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="https://github.com/NiranjanaNS">GitHub</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-column">
-      <h3>Services</h3>
-      <ul>
-        <li>PC Setup & Windows Installation</li>
-        <li>Technical Support & Troubleshooting</li>
-        <li>GitHub Repository Setup & Code Hosting</li>
-      </ul>
-    </div>
-
-    <div class="footer-column">
-      <h3>Have a Questions?</h3>
-      <ul>
-        <li><i class="fas fa-map-marker-alt"></i> Kottayam, Kerala</li>
-        <li><i class="fas fa-phone-alt"></i> +91 8848043584</li>
-        <li><i class="fas fa-envelope"></i> niranjanansajeev6952@gmail.com</li>
-      </ul>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
     </div>
   </div>
 
